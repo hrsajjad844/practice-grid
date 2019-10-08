@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            height: 2000px;
+        }
+        .box-one{
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            position: relative;
+            left:500px;
+            top: 300px;
+        }
+        .box-three{
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            position: absolute;
+            top: 100px;
+            right: 10px;
+        }
+        .box-two{
+            width: 500px;
+            height: 50px;
+            border: 2px solid black;
+            position: fixed;
+            top:0;
+        }
+    </style>
+</head>
+<body>
+<div class="box-one">
+    <div class="box-three"></div>
+</div>
+
+<div class="box-two"></div>
+</body>
+</html>
